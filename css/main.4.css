@@ -1,0 +1,64 @@
+.main4 {
+    display: flex;
+    flex-direction: column;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 54%, rgba(41,45,51,1) 54%);}
+    
+    
+    .main4_intro_profesionals {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:700px) {
+    .main4_intro_profesionals {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.main4_intro h1 {
+    color: aliceblue;
+    font-size: 55px;
+    width: 500px;
+    margin: 30px auto;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main4_intro_profesionals div img {
+    width: 280px;
+    border-radius: 20px;
+}
+
+.main4_intro_profesionals> div {
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    width: 360px;
+    text-align: center;
+    padding:30px 0;
+    border-radius: 30px;
+}
+.card h1{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.8;
+}
+
+.card h2 {
+    color: blue;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.card p {
+    font-size: large;
+    padding: 39px;
+    line-height: 1.2;
+}
+
+.card div span {
+        padding: 3px;
+        font-size: 25px;
+}
